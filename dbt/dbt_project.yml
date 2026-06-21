@@ -1,0 +1,16 @@
+name: 'api_dwh'
+
+version: '1.0.0'
+
+config-version: 2
+
+profile: 'api_dwh'
+
+model-paths: ["models"]
+
+models:
+
+  api_dwh:
+
+    mart:
+      +materialized: table

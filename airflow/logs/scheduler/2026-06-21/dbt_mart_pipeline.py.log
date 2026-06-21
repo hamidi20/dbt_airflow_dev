@@ -1,0 +1,309 @@
+[2026-06-21T17:05:11.624+0700] {processor.py:186} INFO - Started process (PID=191) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:05:11.626+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T17:05:11.630+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:05:11.629+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:05:11.672+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:05:12.018+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:05:12.017+0700] {override.py:1911} INFO - Created Permission View: can delete on DAG:dbt_mart_pipeline
+[2026-06-21T17:05:12.033+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:05:12.033+0700] {override.py:1911} INFO - Created Permission View: can edit on DAG:dbt_mart_pipeline
+[2026-06-21T17:05:12.044+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:05:12.043+0700] {override.py:1911} INFO - Created Permission View: can read on DAG:dbt_mart_pipeline
+[2026-06-21T17:05:12.055+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:05:12.054+0700] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:dbt_mart_pipeline
+[2026-06-21T17:05:12.065+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:05:12.064+0700] {override.py:1911} INFO - Created Permission View: can read on DAG Run:dbt_mart_pipeline
+[2026-06-21T17:05:12.073+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:05:12.073+0700] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:dbt_mart_pipeline
+[2026-06-21T17:05:12.083+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:05:12.083+0700] {override.py:1911} INFO - Created Permission View: can create on DAG Run:dbt_mart_pipeline
+[2026-06-21T17:05:12.085+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:05:12.084+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T17:05:12.100+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:05:12.100+0700] {dag.py:3262} INFO - Creating ORM DAG for dbt_mart_pipeline
+[2026-06-21T17:05:12.102+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:05:12.102+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T17:05:12.126+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.508 seconds
+[2026-06-21T17:05:42.387+0700] {processor.py:186} INFO - Started process (PID=196) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:05:42.388+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T17:05:42.390+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:05:42.389+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:05:42.404+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:05:42.427+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:05:42.427+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T17:05:42.439+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:05:42.439+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T17:05:42.456+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.073 seconds
+[2026-06-21T17:06:12.689+0700] {processor.py:186} INFO - Started process (PID=201) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:06:12.690+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T17:06:12.692+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:06:12.691+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:06:12.718+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:06:12.741+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:06:12.741+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T17:06:12.754+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:06:12.754+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T17:06:12.774+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.090 seconds
+[2026-06-21T17:06:43.065+0700] {processor.py:186} INFO - Started process (PID=206) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:06:43.066+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T17:06:43.067+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:06:43.067+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:06:43.084+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:06:43.109+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:06:43.109+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T17:06:43.121+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:06:43.121+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T17:06:43.141+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.080 seconds
+[2026-06-21T17:07:13.357+0700] {processor.py:186} INFO - Started process (PID=211) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:07:13.358+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T17:07:13.359+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:07:13.359+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:07:13.373+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:07:13.396+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:07:13.396+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T17:07:13.411+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:07:13.411+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T17:07:13.427+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.074 seconds
+[2026-06-21T17:07:43.687+0700] {processor.py:186} INFO - Started process (PID=216) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:07:43.688+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T17:07:43.690+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:07:43.690+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:07:43.709+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:07:43.732+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:07:43.732+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T17:07:43.745+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:07:43.745+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T17:07:43.762+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.081 seconds
+[2026-06-21T17:08:14.035+0700] {processor.py:186} INFO - Started process (PID=221) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:08:14.036+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T17:08:14.038+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:08:14.038+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:08:14.052+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:08:14.074+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:08:14.074+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T17:08:14.086+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:08:14.086+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T17:08:14.103+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.072 seconds
+[2026-06-21T17:08:44.376+0700] {processor.py:186} INFO - Started process (PID=226) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:08:44.377+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T17:08:44.379+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:08:44.378+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:08:44.399+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:08:44.421+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:08:44.420+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T17:08:44.432+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:08:44.432+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T17:08:44.453+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.084 seconds
+[2026-06-21T17:09:14.680+0700] {processor.py:186} INFO - Started process (PID=231) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:09:14.681+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T17:09:14.683+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:09:14.683+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:09:14.697+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:09:14.725+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:09:14.724+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T17:09:14.738+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:09:14.737+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T17:09:14.753+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.077 seconds
+[2026-06-21T17:09:45.030+0700] {processor.py:186} INFO - Started process (PID=236) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:09:45.031+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T17:09:45.032+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:09:45.032+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:09:45.045+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:09:45.066+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:09:45.066+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T17:09:45.078+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:09:45.078+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T17:09:45.095+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.069 seconds
+[2026-06-21T17:10:15.369+0700] {processor.py:186} INFO - Started process (PID=241) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:10:15.370+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T17:10:15.372+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:10:15.372+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:10:15.393+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:10:15.419+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:10:15.419+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T17:10:15.433+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:10:15.433+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T17:10:15.454+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.091 seconds
+[2026-06-21T17:10:45.674+0700] {processor.py:186} INFO - Started process (PID=246) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:10:45.675+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T17:10:45.677+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:10:45.677+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:10:45.701+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:10:45.728+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:10:45.728+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T17:10:45.742+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:10:45.742+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T17:10:45.762+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.095 seconds
+[2026-06-21T17:11:16.014+0700] {processor.py:186} INFO - Started process (PID=251) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:11:16.016+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T17:11:16.017+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:11:16.017+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:11:16.033+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:11:16.056+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:11:16.056+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T17:11:16.070+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:11:16.070+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T17:11:16.085+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.075 seconds
+[2026-06-21T17:11:46.336+0700] {processor.py:186} INFO - Started process (PID=256) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:11:46.337+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T17:11:46.338+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:11:46.338+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:11:46.355+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:11:46.383+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:11:46.383+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T17:11:46.399+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:11:46.399+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T17:11:46.423+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.092 seconds
+[2026-06-21T17:12:16.655+0700] {processor.py:186} INFO - Started process (PID=261) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:12:16.656+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T17:12:16.658+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:12:16.657+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:12:16.679+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:12:16.704+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:12:16.704+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T17:12:16.719+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:12:16.719+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T17:12:16.740+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.092 seconds
+[2026-06-21T17:12:47.002+0700] {processor.py:186} INFO - Started process (PID=266) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:12:47.003+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T17:12:47.005+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:12:47.005+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:12:47.040+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T17:12:47.067+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:12:47.067+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T17:12:47.083+0700] {logging_mixin.py:190} INFO - [2026-06-21T17:12:47.083+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T17:12:47.099+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.102 seconds
+[2026-06-21T18:20:36.366+0700] {processor.py:186} INFO - Started process (PID=190) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:20:36.369+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T18:20:36.374+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:20:36.373+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:20:36.435+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:20:36.498+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:20:36.497+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T18:20:36.526+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:20:36.526+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T18:20:36.563+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.215 seconds
+[2026-06-21T18:21:06.636+0700] {processor.py:186} INFO - Started process (PID=195) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:21:06.637+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T18:21:06.640+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:21:06.639+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:21:06.663+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:21:06.696+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:21:06.695+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T18:21:06.713+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:21:06.713+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T18:21:06.731+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.100 seconds
+[2026-06-21T18:21:37.026+0700] {processor.py:186} INFO - Started process (PID=200) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:21:37.029+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T18:21:37.038+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:21:37.038+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:21:37.111+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:21:37.138+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:21:37.138+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T18:21:37.152+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:21:37.152+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T18:21:37.169+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.148 seconds
+[2026-06-21T18:22:07.269+0700] {processor.py:186} INFO - Started process (PID=205) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:22:07.271+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T18:22:07.273+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:22:07.272+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:22:07.296+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:22:07.323+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:22:07.323+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T18:22:07.334+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:22:07.334+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T18:22:07.350+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.087 seconds
+[2026-06-21T18:22:37.606+0700] {processor.py:186} INFO - Started process (PID=210) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:22:37.607+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T18:22:37.608+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:22:37.608+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:22:37.622+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:22:37.646+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:22:37.646+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T18:22:37.659+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:22:37.658+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T18:22:37.693+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.092 seconds
+[2026-06-21T18:23:07.972+0700] {processor.py:186} INFO - Started process (PID=215) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:23:07.974+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T18:23:07.975+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:23:07.975+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:23:07.996+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:23:08.022+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:23:08.022+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T18:23:08.036+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:23:08.035+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T18:23:08.053+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.088 seconds
+[2026-06-21T18:23:38.247+0700] {processor.py:186} INFO - Started process (PID=271) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:23:38.248+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T18:23:38.249+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:23:38.249+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:23:38.269+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:23:38.292+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:23:38.291+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T18:23:38.305+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:23:38.304+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T18:23:38.324+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.081 seconds
+[2026-06-21T18:24:08.589+0700] {processor.py:186} INFO - Started process (PID=276) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:24:08.591+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T18:24:08.593+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:24:08.592+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:24:08.669+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:24:08.695+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:24:08.695+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T18:24:08.708+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:24:08.708+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T18:24:08.725+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.141 seconds
+[2026-06-21T18:24:38.906+0700] {processor.py:186} INFO - Started process (PID=281) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:24:38.907+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T18:24:38.908+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:24:38.908+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:24:38.927+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:24:38.952+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:24:38.952+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T18:24:38.966+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:24:38.966+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T18:24:38.986+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.084 seconds
+[2026-06-21T18:25:09.278+0700] {processor.py:186} INFO - Started process (PID=286) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:25:09.279+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T18:25:09.281+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:25:09.281+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:25:09.300+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:25:09.324+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:25:09.324+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T18:25:09.337+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:25:09.336+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T18:25:09.359+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.086 seconds
+[2026-06-21T18:25:39.621+0700] {processor.py:186} INFO - Started process (PID=291) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:25:39.622+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T18:25:39.624+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:25:39.624+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:25:39.643+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:25:39.666+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:25:39.666+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T18:25:39.680+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:25:39.680+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T18:25:39.700+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.086 seconds
+[2026-06-21T18:26:09.944+0700] {processor.py:186} INFO - Started process (PID=296) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:26:09.945+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T18:26:09.947+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:26:09.947+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:26:09.967+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:26:09.990+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:26:09.989+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T18:26:10.003+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:26:10.003+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T18:26:10.026+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.088 seconds
+[2026-06-21T18:26:40.335+0700] {processor.py:186} INFO - Started process (PID=301) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:26:40.336+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T18:26:40.337+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:26:40.337+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:26:40.356+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:26:40.379+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:26:40.379+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T18:26:40.392+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:26:40.392+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T18:26:40.411+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.081 seconds
+[2026-06-21T18:27:10.644+0700] {processor.py:186} INFO - Started process (PID=306) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:27:10.646+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T18:27:10.648+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:27:10.648+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:27:10.675+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:27:10.701+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:27:10.701+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T18:27:10.716+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:27:10.716+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T18:27:10.735+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.096 seconds
+[2026-06-21T18:27:40.995+0700] {processor.py:186} INFO - Started process (PID=311) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:27:40.996+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T18:27:40.998+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:27:40.998+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:27:41.018+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:27:41.043+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:27:41.043+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T18:27:41.056+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:27:41.055+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T18:27:41.073+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.083 seconds
+[2026-06-21T18:28:11.286+0700] {processor.py:186} INFO - Started process (PID=316) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:28:11.287+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T18:28:11.289+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:28:11.289+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:28:11.303+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:28:11.328+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:28:11.328+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T18:28:11.341+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:28:11.341+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T18:28:11.384+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.102 seconds
+[2026-06-21T18:28:41.649+0700] {processor.py:186} INFO - Started process (PID=321) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:28:41.650+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T18:28:41.651+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:28:41.651+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:28:41.666+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:28:41.686+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:28:41.686+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T18:28:41.698+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:28:41.698+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T18:28:41.714+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.070 seconds
+[2026-06-21T18:29:11.969+0700] {processor.py:186} INFO - Started process (PID=326) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:29:11.970+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T18:29:11.973+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:29:11.972+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:29:11.991+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:29:12.013+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:29:12.013+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T18:29:12.026+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:29:12.026+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T18:29:12.044+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.080 seconds
+[2026-06-21T18:29:42.347+0700] {processor.py:186} INFO - Started process (PID=331) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:29:42.348+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T18:29:42.350+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:29:42.350+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:29:42.369+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:29:42.396+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:29:42.395+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T18:29:42.414+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:29:42.414+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T18:29:42.448+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.106 seconds
+[2026-06-21T18:30:12.661+0700] {processor.py:186} INFO - Started process (PID=336) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:30:12.662+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T18:30:12.664+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:30:12.664+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:30:12.688+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:30:12.717+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:30:12.717+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T18:30:12.731+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:30:12.731+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T18:30:12.757+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.103 seconds
+[2026-06-21T18:30:43.092+0700] {processor.py:186} INFO - Started process (PID=341) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:30:43.093+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T18:30:43.095+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:30:43.095+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:30:43.113+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:30:43.138+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:30:43.137+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T18:30:43.151+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:30:43.151+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T18:30:43.170+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.082 seconds
+[2026-06-21T18:31:13.380+0700] {processor.py:186} INFO - Started process (PID=346) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:31:13.381+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T18:31:13.382+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:31:13.382+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:31:13.399+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:31:13.424+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:31:13.424+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T18:31:13.437+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:31:13.436+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T18:31:13.456+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.080 seconds
+[2026-06-21T18:31:43.758+0700] {processor.py:186} INFO - Started process (PID=351) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:31:43.759+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T18:31:43.761+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:31:43.760+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:31:43.774+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:31:43.795+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:31:43.795+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T18:31:43.807+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:31:43.807+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T18:31:43.828+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.075 seconds
+[2026-06-21T18:32:14.036+0700] {processor.py:186} INFO - Started process (PID=356) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:32:14.037+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T18:32:14.040+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:32:14.040+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:32:14.060+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:32:14.087+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:32:14.087+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T18:32:14.101+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:32:14.101+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T18:32:14.124+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.094 seconds
+[2026-06-21T18:32:44.441+0700] {processor.py:186} INFO - Started process (PID=361) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:32:44.442+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T18:32:44.444+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:32:44.443+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:32:44.462+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:32:44.484+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:32:44.484+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T18:32:44.497+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:32:44.497+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T18:32:44.517+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.081 seconds
+[2026-06-21T18:33:14.780+0700] {processor.py:186} INFO - Started process (PID=366) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:33:14.781+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T18:33:14.783+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:33:14.783+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:33:14.799+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:33:14.824+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:33:14.824+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T18:33:14.836+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:33:14.836+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T18:33:14.852+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.077 seconds
+[2026-06-21T18:33:45.100+0700] {processor.py:186} INFO - Started process (PID=371) to work on /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:33:45.101+0700] {processor.py:914} INFO - Processing file /opt/airflow/dags/dbt_mart_pipeline.py for tasks to queue
+[2026-06-21T18:33:45.102+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:33:45.102+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:33:45.121+0700] {processor.py:925} INFO - DAG(s) 'dbt_mart_pipeline' retrieved from /opt/airflow/dags/dbt_mart_pipeline.py
+[2026-06-21T18:33:45.146+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:33:45.146+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T18:33:45.158+0700] {logging_mixin.py:190} INFO - [2026-06-21T18:33:45.157+0700] {dag.py:4180} INFO - Setting next_dagrun for dbt_mart_pipeline to None, run_after=None
+[2026-06-21T18:33:45.180+0700] {processor.py:208} INFO - Processing /opt/airflow/dags/dbt_mart_pipeline.py took 0.086 seconds

@@ -1,0 +1,112 @@
+[2026-06-02T21:06:40.487+0700] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-06-02T21:06:40.512+0700] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_staging_pipeline.stg_customers manual__2026-06-02T14:06:39.381747+00:00 [queued]>
+[2026-06-02T21:06:40.525+0700] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_staging_pipeline.stg_customers manual__2026-06-02T14:06:39.381747+00:00 [queued]>
+[2026-06-02T21:06:40.526+0700] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2026-06-02T21:06:40.547+0700] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): stg_customers> on 2026-06-02 14:06:39.381747+00:00
+[2026-06-02T21:06:40.560+0700] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=938) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-06-02T21:06:40.562+0700] {standard_task_runner.py:72} INFO - Started process 939 to run task
+[2026-06-02T21:06:40.561+0700] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'dbt_staging_pipeline', 'stg_customers', 'manual__2026-06-02T14:06:39.381747+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/dbt_staging_pipeline.py', '--cfg-path', '/tmp/tmp4nln_ce1']
+[2026-06-02T21:06:40.564+0700] {standard_task_runner.py:105} INFO - Job 15: Subtask stg_customers
+[2026-06-02T21:06:40.645+0700] {task_command.py:467} INFO - Running <TaskInstance: dbt_staging_pipeline.stg_customers manual__2026-06-02T14:06:39.381747+00:00 [running]> on host f8ff8ebf72d1
+[2026-06-02T21:06:40.760+0700] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dbt_staging_pipeline' AIRFLOW_CTX_TASK_ID='stg_customers' AIRFLOW_CTX_EXECUTION_DATE='2026-06-02T14:06:39.381747+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-02T14:06:39.381747+00:00'
+[2026-06-02T21:06:40.762+0700] {taskinstance.py:731} INFO - ::endgroup::
+[2026-06-02T21:06:40.790+0700] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2026-06-02T21:06:40.791+0700] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'docker exec dbt_runner dbt run --select stg_customers']
+[2026-06-02T21:06:40.804+0700] {subprocess.py:99} INFO - Output:
+[2026-06-02T21:06:42.846+0700] {subprocess.py:106} INFO - [0m14:06:42  Running with dbt=1.8.2
+[2026-06-02T21:06:43.065+0700] {subprocess.py:106} INFO - [0m14:06:43  Registered adapter: postgres=1.8.2
+[2026-06-02T21:06:43.304+0700] {subprocess.py:106} INFO - [0m14:06:43  Unable to do partial parsing because a project config has changed
+[2026-06-02T21:06:44.256+0700] {subprocess.py:106} INFO - [0m14:06:44  [[33mWARNING[0m]: Deprecated functionality
+[2026-06-02T21:06:44.257+0700] {subprocess.py:106} INFO - The `tests` config has been renamed to `data_tests`. Please see
+[2026-06-02T21:06:44.257+0700] {subprocess.py:106} INFO - https://docs.getdbt.com/docs/build/data-tests#new-data_tests-syntax for more
+[2026-06-02T21:06:44.257+0700] {subprocess.py:106} INFO - information.
+[2026-06-02T21:06:44.594+0700] {subprocess.py:106} INFO - [0m14:06:44  Found 7 models, 6 data tests, 428 macros
+[2026-06-02T21:06:44.598+0700] {subprocess.py:106} INFO - [0m14:06:44
+[2026-06-02T21:06:45.683+0700] {subprocess.py:106} INFO - [0m14:06:45  Concurrency: 1 threads (target='dev')
+[2026-06-02T21:06:45.684+0700] {subprocess.py:106} INFO - [0m14:06:45
+[2026-06-02T21:06:45.691+0700] {subprocess.py:106} INFO - [0m14:06:45  1 of 1 START sql view model mart_staging.stg_customers ......................... [RUN]
+[2026-06-02T21:06:46.070+0700] {subprocess.py:106} INFO - [0m14:06:46  1 of 1 ERROR creating sql view model mart_staging.stg_customers ................ [[31mERROR[0m in 0.38s]
+[2026-06-02T21:06:46.268+0700] {subprocess.py:106} INFO - [0m14:06:46
+[2026-06-02T21:06:46.272+0700] {subprocess.py:106} INFO - [0m14:06:46  Finished running 1 view model in 0 hours 0 minutes and 1.66 seconds (1.66s).
+[2026-06-02T21:06:46.330+0700] {subprocess.py:106} INFO - [0m14:06:46
+[2026-06-02T21:06:46.331+0700] {subprocess.py:106} INFO - [0m14:06:46  [31mCompleted with 1 error and 0 warnings:[0m
+[2026-06-02T21:06:46.332+0700] {subprocess.py:106} INFO - [0m14:06:46
+[2026-06-02T21:06:46.333+0700] {subprocess.py:106} INFO - [0m14:06:46    Database Error in model stg_customers (models/staging/stg_customers.sql)
+[2026-06-02T21:06:46.334+0700] {subprocess.py:106} INFO -   cross-database references are not implemented: "master.public.ods_customers"
+[2026-06-02T21:06:46.334+0700] {subprocess.py:106} INFO -   LINE 14: FROM master.public.ods_customers
+[2026-06-02T21:06:46.335+0700] {subprocess.py:106} INFO -                 ^
+[2026-06-02T21:06:46.335+0700] {subprocess.py:106} INFO -   compiled code at target/run/api_dwh/models/staging/stg_customers.sql
+[2026-06-02T21:06:46.336+0700] {subprocess.py:106} INFO - [0m14:06:46
+[2026-06-02T21:06:46.336+0700] {subprocess.py:106} INFO - [0m14:06:46  Done. PASS=0 WARN=0 ERROR=1 SKIP=0 TOTAL=1
+[2026-06-02T21:06:48.121+0700] {subprocess.py:110} INFO - Command exited with return code 1
+[2026-06-02T21:06:48.141+0700] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 276, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2026-06-02T21:06:48.149+0700] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=dbt_staging_pipeline, task_id=stg_customers, run_id=manual__2026-06-02T14:06:39.381747+00:00, execution_date=20260602T140639, start_date=20260602T140640, end_date=20260602T140648
+[2026-06-02T21:06:48.169+0700] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-06-02T21:06:48.170+0700] {standard_task_runner.py:124} ERROR - Failed to execute job 15 for task stg_customers (Bash command failed. The command returned a non-zero exit code 1.; 939)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 417, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 276, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2026-06-02T21:06:48.204+0700] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2026-06-02T21:06:48.236+0700] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-06-02T21:06:48.243+0700] {local_task_job_runner.py:245} INFO - ::endgroup::

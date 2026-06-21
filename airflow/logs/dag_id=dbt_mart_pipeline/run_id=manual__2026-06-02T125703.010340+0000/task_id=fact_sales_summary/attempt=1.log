@@ -1,0 +1,35 @@
+[2026-06-02T19:57:26.254+0700] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-06-02T19:57:26.275+0700] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_mart_pipeline.fact_sales_summary manual__2026-06-02T12:57:03.010340+00:00 [queued]>
+[2026-06-02T19:57:26.286+0700] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_mart_pipeline.fact_sales_summary manual__2026-06-02T12:57:03.010340+00:00 [queued]>
+[2026-06-02T19:57:26.287+0700] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2026-06-02T19:57:26.302+0700] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): fact_sales_summary> on 2026-06-02 12:57:03.010340+00:00
+[2026-06-02T19:57:26.315+0700] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=240) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-06-02T19:57:26.317+0700] {standard_task_runner.py:72} INFO - Started process 241 to run task
+[2026-06-02T19:57:26.314+0700] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'dbt_mart_pipeline', 'fact_sales_summary', 'manual__2026-06-02T12:57:03.010340+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/dbt_mart_pipeline.py', '--cfg-path', '/tmp/tmpyt5054c4']
+[2026-06-02T19:57:26.318+0700] {standard_task_runner.py:105} INFO - Job 14: Subtask fact_sales_summary
+[2026-06-02T19:57:26.386+0700] {task_command.py:467} INFO - Running <TaskInstance: dbt_mart_pipeline.fact_sales_summary manual__2026-06-02T12:57:03.010340+00:00 [running]> on host f8ff8ebf72d1
+[2026-06-02T19:57:26.495+0700] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dbt_mart_pipeline' AIRFLOW_CTX_TASK_ID='fact_sales_summary' AIRFLOW_CTX_EXECUTION_DATE='2026-06-02T12:57:03.010340+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-02T12:57:03.010340+00:00'
+[2026-06-02T19:57:26.496+0700] {taskinstance.py:731} INFO - ::endgroup::
+[2026-06-02T19:57:26.515+0700] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2026-06-02T19:57:26.516+0700] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'docker exec dbt_runner dbt run --select fact_sales_summary']
+[2026-06-02T19:57:26.526+0700] {subprocess.py:99} INFO - Output:
+[2026-06-02T19:57:28.222+0700] {subprocess.py:106} INFO - [0m12:57:28  Running with dbt=1.8.2
+[2026-06-02T19:57:28.477+0700] {subprocess.py:106} INFO - [0m12:57:28  Registered adapter: postgres=1.8.2
+[2026-06-02T19:57:29.195+0700] {subprocess.py:106} INFO - [0m12:57:29  Found 4 models, 6 data tests, 428 macros
+[2026-06-02T19:57:29.200+0700] {subprocess.py:106} INFO - [0m12:57:29
+[2026-06-02T19:57:29.900+0700] {subprocess.py:106} INFO - [0m12:57:29  Concurrency: 1 threads (target='dev')
+[2026-06-02T19:57:29.901+0700] {subprocess.py:106} INFO - [0m12:57:29
+[2026-06-02T19:57:29.905+0700] {subprocess.py:106} INFO - [0m12:57:29  1 of 1 START sql table model mart.fact_sales_summary ........................... [RUN]
+[2026-06-02T19:57:30.754+0700] {subprocess.py:106} INFO - [0m12:57:30  1 of 1 OK created sql table model mart.fact_sales_summary ...................... [[32mSELECT 2[0m in 0.84s]
+[2026-06-02T19:57:30.913+0700] {subprocess.py:106} INFO - [0m12:57:30
+[2026-06-02T19:57:30.915+0700] {subprocess.py:106} INFO - [0m12:57:30  Finished running 1 table model in 0 hours 0 minutes and 1.71 seconds (1.71s).
+[2026-06-02T19:57:30.972+0700] {subprocess.py:106} INFO - [0m12:57:30
+[2026-06-02T19:57:30.975+0700] {subprocess.py:106} INFO - [0m12:57:30  [32mCompleted successfully[0m
+[2026-06-02T19:57:30.976+0700] {subprocess.py:106} INFO - [0m12:57:30
+[2026-06-02T19:57:30.977+0700] {subprocess.py:106} INFO - [0m12:57:30  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[2026-06-02T19:57:32.483+0700] {subprocess.py:110} INFO - Command exited with return code 0
+[2026-06-02T19:57:32.523+0700] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-06-02T19:57:32.524+0700] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=dbt_mart_pipeline, task_id=fact_sales_summary, run_id=manual__2026-06-02T12:57:03.010340+00:00, execution_date=20260602T125703, start_date=20260602T125726, end_date=20260602T125732
+[2026-06-02T19:57:32.550+0700] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-06-02T19:57:32.570+0700] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-06-02T19:57:32.573+0700] {local_task_job_runner.py:245} INFO - ::endgroup::
