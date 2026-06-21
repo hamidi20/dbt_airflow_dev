@@ -1,8 +1,8 @@
-# 🚀 End-to-End Data Engineering Pipeline (FastAPI + Kafka + dbt + airflow)
+# 🚀 End-to-End ETL Pipeline (FastAPI + Kafka + dbt + airflow)
 
 ## 📌 Project Overview
 
-This project demonstrates an end-to-end data engineering pipeline built using FastAPI, Apache Kafka, PostgreSQL, and dbt.
+This project demonstrates an end-to-end ETL pipeline built using FastAPI, Apache Kafka, PostgreSQL, and dbt.
 
 The architecture follows an event-driven and layered data platform approach, starting from an API service, streaming data through Kafka, storing it in a master database, and transforming it into analytics-ready datasets using dbt and a data mart layer.
 
