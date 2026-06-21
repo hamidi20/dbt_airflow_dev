@@ -1,4 +1,4 @@
-# 🚀 End-to-End Data Engineering Pipeline (FastAPI + Kafka + dbt)
+# 🚀 End-to-End Data Engineering Pipeline (FastAPI + Kafka + dbt + airflow)
 
 ## 📌 Project Overview
 
